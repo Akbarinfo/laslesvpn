@@ -1,8 +1,617 @@
 .container {
   width: 1200px;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
   min-height: 100vh;
+
 }
+
+.site-header {
+  margin-top: 45px;
+  align-items: center;
+}
+
+.header-logo {
+  width: 148px;
+  margin-top: 5px;
+}
+
+.header-list {
+  list-style-type: none;
+  line-height: 19px;
+  font-weight: 400;
+}
+.header-list a {
+  text-decoration: none;
+  color: #4f5665;
+}
+
+.header-item {
+  margin: 0px 20px;
+}
+
+.header-btn-singin {
+  background-color: #fff;
+  border: none;
+  margin-right: 30px;
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.header-btn-signup {
+  background-color: #fff;
+  border: 1px solid #F53855;
+  border-radius: 30px;
+  padding: 13px 45px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #f53855;
+}
+
+/* HERO PART  */
+
+.site-hero {
+  margin-top: 116px;
+}
+
+.hero-main {
+  margin-right: 20px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  margin-top: 28px;
+}
+
+.hero-text {
+  font-weight: 500;
+  line-height: 30px;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+.hero-lk {
+  margin-top: 67px;
+}
+
+.hero-link {
+  background-color: #f53838;
+  border-radius: 10px;
+  padding: 17px 77px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-img {
+  width: 611px;
+  height: 382px;
+  margin-left: 20px;
+}
+/* HERO PART END  */
+
+.main-info {
+  background-color: #ffffff62;
+  box-shadow: 0px -46px 23px -5px rgba(230, 234, 238, 0.329) inset;
+  border-radius: 10px;
+  height: 200px;
+  align-items: center;
+}
+
+.main-info-list {
+  list-style-type: none;
+  margin-top: 67px;
+  align-items: center;
+}
+
+.main-info-item {
+  align-items: center;
+}
+
+.main-info-item::before {
+  content: '';
+  background-color: #ffecec;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.main-info-users::before {
+  background-image: url('../images/users-img.svg');
+  margin-left: 91px;
+}
+.main-info-users::after {
+  content: '';
+  height: 125px;
+  border: 2px solid #eeeff2;
+  margin-left: 130px;
+}
+
+.main-info-locations::before {
+  background-image: url('../images/locations-img.svg');
+  margin-left: 100px;
+}
+.main-info-locations::after {
+  content: '';
+  height: 125px;
+  border: 2px solid #eeeff2;
+  margin-left: 134px;
+}
+
+
+.main-info-servers::before {
+  background-image: url('../images/servers-img.svg');
+  margin-left: 91px;
+}
+
+.main-info-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-left: 36px;
+}
+.main-info-text-span {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+/* <!-- We Provide Many Features You Can Use PART -->  */
+
+.main-many {
+  height: 414px;
+  background-image: url('../images/we-provide-img.svg');
+  background-repeat: no-repeat;
+  background-position-x: 34px;
+  display: flex;
+  justify-content: right;
+  margin-top: 53px;
+  margin-bottom: 131px;
+}
+
+.main-many-main {
+  margin-left: 169px;
+  margin-top: 54px;
+}
+
+.main-many-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+}
+
+.main-many-list {
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.main-many-item {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.main-many-item::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url('../images/done-img.svg');
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+/* <!-- We Provide Many Features You Can Use PART END-->  */
+
+
+/* Choose Your Plan Part */
+
+.main-choose-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main-choose-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+.main-choose-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.main-choose-item {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.main-choose-item:hover {
+  border: 2px solid #f53855;
+
+}
+
+.main-choose-img {
+  margin-top: 69px;
+}
+
+.main-choose-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-choose-list-two {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.main-choose-item-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #4f5665;
+  margin-top: 10px;
+}
+.main-choose-item-two::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/done-two-img.svg');
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.main-choose-price {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4f5665;
+  text-align: center;
+}
+
+.main-choose-bold {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.main-choose-free {
+  margin-top: 130px;
+}
+.main-choose-standard {
+  margin-top: 90px;
+}
+
+.main-choose-premium {
+  margin-top: 50px;
+}
+.main-choose-btn {
+  border: 2px solid #f53838;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 13px 62px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f53838;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.main-choose-btn:hover {
+  background-color: #f53838;
+  border: 2px solid #f53838;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+/* Choose Your Plan Part END*/
+
+
+/* Huge Global Network of Fast VPN PART  */
+
+.main-huge-title {
+  width: 383px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* Huge Global Network of Fast VPN PART END  */
+
+/* PARTNER PART  */
+
+.main-partner {
+  height: 208px;
+  display: flex;
+  align-items: center;
+}
+
+.main-partner-list {
+  height: 208px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+/* PARTNER PART END  */
+
+/* Trusted by Thousands of Happy Customer  */
+
+.main-trusted-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.main-trusted-item {
+  width: 400px;
+  height: 230px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.main-trusted-item:hover {
+  border: 2px solid #f53838;
+}
+
+.main-trusted-main {
+  display: flex;
+}
+
+.main-trusted-avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.main-trusted-subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b132a;
+}
+
+.main-trusted-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.main-trusted-retting {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #0b132a;
+  margin-left: 90px;
+}
+
+.main-trusted-text {
+  width: 340px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0b132a;
+  margin-top: 8px;
+}
+
+.main-trusted-page {
+  margin-top: 60px;
+}
+
+.main-trusted-page-list {
+  width: 135px;
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+.main-trusted-page-item {
+  width: 45px;
+  height: 15px;
+  background-color: #f53838;
+  border-radius: 10px;
+}
+
+.main-trusted-page-item-two {
+  width: 15px;
+  height: 15px;
+  background-color: #dde0e4;
+  border-radius: 50%;
+}
+
+.main-trusted-page-rd {
+  width: 140px;
+}
+
+.main-trusted-page-radius {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+.main-trusted-page-radius-two {
+  width: 60px;
+  height: 60px;
+  background-color: #f53838;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  padding: 15px 15px;
+  margin-left: 10px;
+}
+
+/* Trusted by Thousands of Happy Customer END  */
+
+
+/* Subscribe Now for Get Special Features!  */
+
+.main-subscribe {
+  height: 233px;
+  align-items: center;
+  margin-top: 143px;
+}
+
+.main-subscribe-title {
+  width: 410px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: #0b132a;
+}
+.main-subscribe-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+.main-subscribe-btn {
+  background-color: #f53838;
+  box-shadow: 0px -49px 39px 27px rgba(245, 56, 56, 0.57) inset;
+  border: none;
+  border-radius: 10px;
+  padding: 17px 65px;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 25px;
+  color: #fff;
+}
+/* Subscribe Now for Get Special Features! END  */
+
+/* FOOTER PART  */
+
+.site-footer {
+  margin-top: 63px;
+}
+
+.footer-main {
+  width: 340px;
+}
+
+.footer-logo {
+  width: 149px;
+  height: 36px;
+}
+
+.footer-desc {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+.footer-social-list {
+  width: 139px;
+  margin-top: 30px;
+  align-items: center;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  width: 33px;
+  height: 33px;
+  background-color: #f53838;
+  border-radius: 50%;
+}
+
+.footer-copright {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #afb5c0;
+  margin-top: 30px;
+}
+
+.footer-nav {
+  margin-bottom: 100px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #afb5c0;
+}
+
+.footer-item-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #0b132a;
+  margin-bottom: 10px;
+  margin-left: 126px;
+}
+
+.footer-item {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #4f5665;
+  margin-top: 10px;
+  margin-left: 126px;
+}
+/* FOTTER PART END  */
