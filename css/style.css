@@ -85,7 +85,9 @@ body {
 }
 
 .hero-link {
+  display: inline-block;
   background-color: #f53838;
+  box-shadow: -3px 49px 40px 2px rgb(209 13 13 / 20%);
   border-radius: 10px;
   padding: 17px 77px;
   font-weight: 700;
